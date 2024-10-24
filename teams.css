@@ -1,0 +1,173 @@
+h3,, .events5, .events, .events6, .eventsss,.{
+    margin: 100px auto;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: white;
+    font-size: 30px;
+    background-color: #f31616;
+    max-height: 70px;
+    display: inline-block;
+    width: 100%;
+    top: 0%;
+    text-align: center;
+    position: sticky;
+    margin: 0 auto;
+    z-index: 1000;
+
+}
+
+  .Ferrari c {
+    color: #4b4b4b;
+    margin-top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Ferrari p {
+      line-height: 2em;
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 20px;
+      
+  }                                  
+  
+  .Ferrari img{
+      float: left; 
+      width: 40%;
+      margin: 20px 5%;
+      
+  }
+  
+  .Mclaren e {
+    color: #f31616;
+    margin top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Mclaren p {
+      line-height: 2em;
+      color: black;
+      margin top: 50px;
+      padding-left: 50px;
+      padding-right: 20px;
+     
+  }                                  
+  
+  .Mclaren img{
+      float: left; 
+      width: 40%;
+      margin: 20px 5%;
+  }
+  
+  .Mercedes f {
+    color: #4b4b4b;
+    margin top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Mercedes p {
+      line-height: 2em;
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 20px;
+
+  }                                  
+  
+  .Mercedes img{
+      float: left; 
+      width: 40%;
+      margin: 20px 5%;
+  }
+  
+  .Redbull g {
+    color: #f31616;
+    margin top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Redbull p {
+      line-height: 2em;
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 20px;
+  }                                  
+  
+  .Redbull img{
+      float: left; 
+      width: 40%;
+      margin: 20px 5%;
+  }
+  
+  .Williams k {
+    color: #f31616;
+    margin top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Williams p {
+      line-height: 2em;
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+  }                                  
+  
+  .Williams img{
+      float: left; 
+      width: 40%;
+      margin: 20px 5%;
+  }
+
+  /* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+  h3 {
+      font-size: 26px;
+  }
+
+  .Ferrari p, .Mclaren p, .Mercedes p, .Redbull p, .Williams p {
+      padding: 0 30px;
+      font-size: 18px;
+  }
+
+  .Ferrari img, .Mclaren img, .Mercedes img, .Redbull img, .Williams img {
+      width: 50%;
+  }
+}
+
+/* Small Screens (Mobile Devices) */
+@media (max-width: 768px) {
+  h3 {
+      font-size: 22px;
+  }
+
+  .Ferrari p, .Mclaren p, .Mercedes p, .Redbull p, .Williams p {
+      padding: 0 15px;
+      font-size: 16px;
+  }
+
+  .Ferrari img, .Mclaren img, .Mercedes img, .Redbull img, .Williams img {
+      width: 100%;
+      float: none;
+      margin: 10px 0;
+  }
+}

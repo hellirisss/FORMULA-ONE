@@ -1,0 +1,87 @@
+.News1, .NewsOne .News2, .News3, .News4, .News5 {
+    margin: 100px auto;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+  } 
+
+h3 {
+  position: sticky; 
+  top: 0;
+  color: white;
+    font-size: 30px;
+    background-color: #f31616;
+    text-align: center;
+    width: 100%;
+  }
+
+h1 {
+    color: black;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    
+  }            
+  
+video {
+    max-height: 450px;
+    margin-left: 0 auto;
+    width: 100%;
+    display: block;
+    
+}
+
+p {
+   font-size: 20px;
+   text-align: center;
+}
+  
+/* Medium Screen (Tablets) */
+@media (max-width: 1024px) {
+  .News1, .NewsOne, .News2, .News3, .News4, .News5 {
+      margin: 50px auto;
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 26px;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+  p {
+      font-size: 18px;
+  }
+
+  video {
+      max-height: 300px; 
+  }
+}
+
+/* Small Screen (Mobile) */
+@media (max-width: 768px) {
+  .News1, .NewsOne, .News2, .News3, .News4, .News5 {
+      margin: 20px auto;
+      font-size: 16px;
+  }
+
+  h3 {
+      font-size: 22px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  video {
+      max-height: 200px; 
+      width: 100%; 
+  }
+}

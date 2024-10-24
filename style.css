@@ -1,0 +1,195 @@
+body, ul, li, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+p{
+    font-size: 20px;
+}
+
+header {
+    background-color: #f31616;
+    padding: 22px;
+    width: 100%;
+    position: sticky;
+}
+
+.banner img{
+    position: fixed;
+    top: 13px;
+    left: 20px;
+    width: 100px; 
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify content: space-between;
+    list-style-type: none;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: sticky;
+  }
+  
+  .tabs li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .tabs li a:hover{
+    color:blanchedalmond;
+    text-decoration: underline;
+  }
+
+  .tabs .mobile {
+    display:none;
+  }
+
+  button {
+    background-color: #f31616;
+    position: fixed;
+    color: #0b0b0b;
+    border-radius: 50px;
+    border-color: none;
+    font-size: 16px;
+    top: 20px;
+    right: 20px;
+    }
+
+  button:hover{
+    color: whitesmoke;
+  }
+
+.takte img {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+ }
+ 
+ @import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+$a: 22.5deg; // middle split line angle
+
+html, body, div { 
+  display: grid 
+}
+
+html { 
+  min-height: 100%
+ } 
+
+body {
+	--s: 4px; 
+	--o: .5*var(--s);
+}
+
+ .takte .welcome  {
+	--sl: calc(50% - .5px), #0000 calc(50% + .5px);
+	
+	background: 
+		linear-gradient($a, #fff var(--sl)) text, 
+		linear-gradient(#094770 50%, #0000 0) 
+			0 0/ 1% var(--s);
+	-webkit-text-stroke: #fff calc(var(--o));
+	text-transform: uppercase;
+	mix-blend-mode: screen
+}
+  
+.takte .welcome{
+    position: absolute;
+    font-size: 74px;
+    bottom: 10;
+ }
+
+ article h2 {
+  color: #f31616;
+  font-size: 48px;
+  position: absolute;
+  top: 105%;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+article h3 {
+  color: #f31616;
+  font-size: 48px;
+  line-height: 2em;
+  padding-left: 100px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 2em;
+  color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+      flex-direction: column; /* Stack items vertically */
+      gap: 10px;
+  }
+
+  .banner img {
+      width: 80px; /* Smaller logo */
+  }
+
+  .takte .welcome {
+      font-size: 50px; /* Reduce font size on smaller screens */
+  }
+
+  article h2 {
+      font-size: 36px; /* Reduce font size */
+  }
+
+  article p {
+      font-size: 16px; /* Reduce font size */
+      padding: 0 10px; /* Reduce padding */
+  }
+
+  button {
+      font-size: 14px; /* Smaller button text */
+      top: 10px; /* Adjusted button position */
+      right: 10px; /* Adjusted button position */
+  }
+
+  article h3 {
+    font-size: 24px; /* Set a specific font size for tablets */
+    padding-left: 10px; /* Adjust padding for tablets */
+    padding-right: 10px; /* Adjust padding for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs {
+      gap: 5px; /* Further reduce gap */
+  }
+
+  .takte .welcome {
+      font-size: 40px; /* Further reduce font size */
+  }
+
+  article h2 {
+      font-size: 28px; /* Further reduce font size */
+  }
+
+  article p {
+      font-size: 14px; /* Further reduce font size */
+  }
+
+  article h3 {
+    font-size: 20px; /* Set a specific font size for mobile */
+    padding-left: 5px; /* Further adjust padding for mobile */
+    padding-right: 5px; /* Further adjust padding for mobile */
+  }
+}

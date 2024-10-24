@@ -1,0 +1,100 @@
+h3, .eventssss, .events5, .events, .events6, .eventsss,.{
+    margin: 20px;
+    font-weight: normal;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: white;
+    font-size: 30px;
+    max-height: 70px;
+    background-color: #f31616;
+    display: inline-block;
+    width: 100%;
+    top: 0%;
+    text-align: center;
+    position: sticky;
+    margin: 0 auto;
+}
+
+  .events c, .eventsss e, .eventssss f, .events5 e, .events6{
+    color: #4b4b4b;
+    padding: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .events p, .eventsss p, .eventssss p, .events5 p, .events6 p {
+      line-height: 2em;
+      color: black;
+      padding: 20px 50px;
+      font-size: 20px;
+  }                                  
+  
+  .events img{
+      float: left; 
+      margin-right: 5px;
+      margin-left: 5px;
+      width: 40%;
+      margin: 20px 5%;
+  }
+                                   
+  .eventsss img .eventsss img, .eventssss img, .events5 img, .events6 img {
+      float: left; 
+      margin: 20px 5%;
+      display: inline-block;
+      width: 40%;
+  }
+  
+  .eventsss e{
+    color:#f31616;
+  }
+
+  .eventssss f {
+    color: #4b4b4b;
+  }                                  
+
+  .events5 e {
+    color: #f31616;
+  }                                  
+                                  
+  .events6 f {
+    color: #f31616;
+  }                                                                 
+
+  @media (max-width: 1024px) {
+    h3 {
+        font-size: 24px;
+    }
+
+    /* Adjust text size for medium screens (e.g., tablets) */
+    .events p, .eventsss p, .eventssss p, .events5 p, .events6 p {
+        padding: 20px 30px;
+        font-size: 18px;
+    }
+
+    /* Adjust image width for medium screens */
+    .events img, .eventsss img, .eventssss img, .events5 img, .events6 img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    /* Adjust text size for small screens (e.g., mobile devices) */
+    .events p, .eventsss p, .eventssss p, .events5 p, .events6 p {
+        padding: 20px 15px;
+        font-size: 16px;
+    }
+
+    /* Full-width images for small screens */
+    .events img, .eventsss img, .eventssss img, .events5 img, .events6 img {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+}

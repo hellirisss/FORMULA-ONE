@@ -1,0 +1,93 @@
+h3, div, .Lewis, .Lando, .events, .events6, .eventsss,.{
+    margin: 100px auto;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: white;
+    font-size: 48px;
+    background-color: #f31616;
+    max-height: 70px;
+    display: inline-block;
+    width: 100%;
+    top: 0%;
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    margin: 0 auto;
+    z-index: 1000;
+
+}
+
+  .Lewis c, .Lando d, .Leklek d, .Oscar d, .Williams k {
+    color: #f31616 ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    width: 100%;
+  }                                  
+  
+  .Lewis p, .Lando p, .Leklek p, .Oscar p, .William p {
+      line-height: 2em;
+      color: black;
+      padding: 20px 50px;
+      font-size: 20px;
+      
+  }                                  
+  
+  .Lewis img, .Lando img, .Leklek img, .Oscar img, .Williams img {
+    float: left; 
+    width: 40%;
+    margin: 20px 5%;
+    }
+
+  .Lewis img:hover, .Lando img:hover, .Leklek img:hover, .Oscar img:hover, .Williams img:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+  }
+
+  a {
+    color:#f31616;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color:#f31616;
+    text-decoration: double;
+  }
+
+  @media (max-width: 1024px) {
+    h3 {
+      font-size: 26px;
+      padding: 15px;
+    }
+  
+    .Lewis img, .Lando img, .Leklek img, .Oscar img, .Williams img {
+      width: 50%;
+      margin: 10px auto;
+    }
+  
+    .Lewis p, .Lando p, .Leklek p, .Oscar p, .Williams p {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 22px;
+      padding: 10px;
+    }
+  
+    .Lewis img, .Lando img, .Leklek img, .Oscar img, .Williams img {
+      width: 80%; 
+      margin: 10px auto;
+      display: block;
+    }
+  
+    .Lewis p, .Lando p, .Leklek p, .Oscar p, .Williams p {
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
